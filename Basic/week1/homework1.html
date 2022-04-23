@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>SheCodes</title>
+
+    <style>
+      .weather-container {
+        margin: 0 auto;
+        text-align: center;
+        font-family: sans-serif;
+      }
+      h1 {
+        color: #1a64d6;
+        font-size: 34px;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: 34px;
+      }
+      p {
+        font-size: 18px;
+        opacity: 0.7;
+        font-family: monospace;
+      }
+      .bold {
+        font-weight: 800;
+      }
+      ul{
+        list-style-type: none;
+        padding: 0;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+      }
+      li{
+          padding: 10px 0;
+          max-width: 380px;
+          margin: 0 auto;
+          border-radius: 8px;
+
+      }
+      li:hover{
+        transition: all 200ms ease-in-out;
+        background: #fffbef;
+      }
+      .change-btn{
+          padding: 16px 24px;
+            background-color: #1a64d6;
+            border: 1px solid #1a64d6;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 28px;
+            margin: 20px 0;
+      }
+      .change-btn:hover{
+          transition: all 200ms ease-in-out;
+          background-color: #fff;
+          color: #1a64d6;
+          border: 1px solid #1a64d6;
+          cursor: pointer;
+         
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="weather-container">
+      <h1>
+        🌤
+        <br />
+        Currently 21° in Tokyo
+      </h1>
+      <h2>
+        13° /
+        <span class="bold">23°</span>
+      </h2>
+
+      <ul>
+        <li>
+          <h3>🌧 Tomorrow</h3>
+          <p>
+            10° /
+            <span class="bold"
+              >22°</span
+            >
+          </p>
+        </li>
+        <li>
+          <h3>🌥 Saturday</h3>
+          <p>
+            15° /
+            <span class="bold"
+              >17°</span
+            >
+          </p>
+        </li>
+        <li>
+          <h3>☀️ Sunday</h3>
+          <p>
+            10° /
+            <span class="bold"
+              >22°</span
+            >
+          </p>
+        </li>
+        
+      </ul>
+
+      <button class="change-btn">
+          Change City
+      </button>
+      <p>Coded by Jane Muchiri</p>
+    </div>
+  </body>
+</html>
